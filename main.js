@@ -34,7 +34,7 @@ window.onload = function() {
         bear.y      = 320 - 16 - 32;
         bear.status = STATUS_WAIT;
         bear.anim   = [10, 11, 10, 12];
-        bear.frame  = 10;
+        bear.frame  = 1;
         game.rootScene.addChild(bear);
         
         //frame loop for the bear
